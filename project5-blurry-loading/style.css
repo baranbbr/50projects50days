@@ -15,6 +15,7 @@ body {
 }
 
 .back {
+	font-family: initial;
 	position: absolute;
 	top: 2vh;
 	left: 5vw;
