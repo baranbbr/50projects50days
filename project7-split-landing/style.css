@@ -22,11 +22,13 @@ body {
 }
 
 .back {
+	z-index: 2;
 	position: absolute;
 	top: 2vh;
 	left: 5vw;
 	color: black;
 	font-size: 2rem;
+	font-family: initial;
 }
 
 h1 {
