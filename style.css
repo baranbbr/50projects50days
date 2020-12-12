@@ -1,4 +1,5 @@
 .container {
+	font-family: sans-serif;
 	max-width: 960px;
 	display: flex;
 	margin: auto;
