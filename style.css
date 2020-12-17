@@ -7,3 +7,15 @@
 	flex-direction: column;
 	align-items: center;
 }
+
+a {
+	color: #6969db;
+	text-decoration: underline;
+}
+a:visited {
+	text-decoration: none;
+	color: #6969db;
+}
+a:hover {
+	color: blue;
+}
