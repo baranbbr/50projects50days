@@ -19,3 +19,7 @@ a:visited {
 a:hover {
 	color: #0000ff;
 }
+
+p {
+	margin: 0;
+}
