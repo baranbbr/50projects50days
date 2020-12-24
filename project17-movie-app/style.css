@@ -18,8 +18,9 @@ body {
 	position: absolute;
 	top: 2vh;
 	left: 5vw;
-	color: black;
+	color: white;
 	font-size: 2rem;
+	font-family: initial;
 }
 
 header {
@@ -39,11 +40,7 @@ header {
 	color: #ffffff;
 }
 
-.search::placeholder {
-	color: #7378c5;
-}
-
-.seach:focus {
+.search:focus {
 	outline: none;
 	background-color: var(--primary-color);
 }
@@ -51,6 +48,7 @@ header {
 main {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .movie {
@@ -106,6 +104,7 @@ main {
 	right: 0;
 	max-height: 100%;
 	transform: translateY(101%);
+	overflow-y: auto;
 	transition: transform 0.3s ease-in;
 }
 
