@@ -24,3 +24,35 @@ a:hover {
 p {
 	margin: 0;
 }
+
+li.new {
+	background-color: #6969db;
+	padding: 0.1rem;
+	text-align: center;
+	border-radius: 12px;
+	transition: all 0.5s ease-in-out;
+	box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+li.new:hover {
+	transform: scale(0.97);
+}
+li.new a {
+	color: #fff;
+}
+
+li.new a:hover {
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+li.new p {
+	color: white;
+	margin: 10px 0 0 0;
+}
+
+@media (max-width: 850px) {
+	html {
+		font-size: 65%;
+	}
+}
