@@ -13,11 +13,10 @@ body {
 }
 
 .back {
-	position: absolute;
-	top: 2vh;
-	left: 5vw;
 	color: black;
 	font-size: 2rem;
+	font-family: initial;
+	text-decoration: underline;
 }
 
 .container {
