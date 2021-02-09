@@ -58,7 +58,7 @@ ul li label {
 }
 
 button {
-	background-color: #8e44ad;
+	background-color: #6969db;
 	border: none;
 	color: white;
 	display: block;
@@ -70,10 +70,10 @@ button {
 }
 
 button:hover {
-	background-color: #732d91;
+	background-color: #4747dd;
 }
 
 button:focus {
 	outline: none;
-	background-color: #5e3370;
+	background-color: #4747dd;
 }
