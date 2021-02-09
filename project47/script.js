@@ -41,11 +41,13 @@ const b_text = document.getElementById('b_text')
 const c_text = document.getElementById('c_text')
 const d_text = document.getElementById('d_text')
 const submitBtn = document.getElementById('submit')
+const glass = document.querySelector('.container')
 
 let currentQuiz = 0
 let score = 0
 
 loadQuiz()
+updateGlassHeight()
 
 function loadQuiz() {
     deselectAnswers()
@@ -80,9 +82,10 @@ submitBtn.addEventListener('click', () => {
         currentQuiz++
         if (currentQuiz < quizData.length) {
             loadQuiz()
+            updateGlassHeight()
         } else {
             quiz.innerHTML = `
-            <h2>You answered ${score}/${quizData.length} questions correctly!</h2>
+            <h2 class="done">You answered ${score}/${quizData.length} questions correctly!</h2>
             <button onclick="location.reload()">Reload</button>
         `
         }
@@ -90,3 +93,10 @@ submitBtn.addEventListener('click', () => {
         alert('Please choose an option before clicking submit')
     }
 })
+
+function updateGlassHeight() {
+    const { height, top, bottom } = quiz.getBoundingClientRect()
+    console.log(height)
+    glass.style.top = `${top}px`
+    glass.style.height = `${height}px`
+}
