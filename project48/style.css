@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	flex-direction: column;
+	margin: 0;
+}
+
+.back {
+	position: absolute;
+	top: 2vh;
+	left: 5vw;
+	color: black;
+	font-size: 2rem;
+	font-family: initial;
+}
+
+.title {
+	margin: 10px 0 0;
+	text-align: center;
+}
+
+.container {
+	max-width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.container img {
+	object-fit: cover;
+	margin: 10px;
+	height: 300px;
+	width: 300px;
+	max-width: 100%;
+}
