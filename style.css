@@ -59,4 +59,7 @@ li.new p {
 	html {
 		font-size: 65%;
 	}
+	ul li {
+		margin: 30px;
+	}
 }
