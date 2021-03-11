@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Project 50 - Laptop Catcher Game</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<a href="../index.html" class="back">back</a>
+	<div class="screen">
+		<h1>Catch The Laptop</h1>
+		<button class="btn" id="start-btn">
+			Play Game
+		</button>
+	</div>
+
+	<div class="screen">
+		<h1>What is your "favourite" laptop?</h1>
+		<p>Click to catch it</p>
+		<ul class="insects-list">
+			<li>
+				<button class="choose-insect-btn">
+					<p>MacBook</p>
+					<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.searchpng.com%2Fwp-content%2Fuploads%2F2018%2F12%2FApple-MacBook-Pro.png&f=1&nofb=1"
+						alt="macbook">
+				</button>
+			</li>
+			<li>
+				<button class="choose-insect-btn">
+					<p>Dell XPS</p>
+					<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsellbroke.com%2Fwp-content%2Fuploads%2F2015%2F08%2Fsell-laptop-dell-XPS-L511z.png&f=1&nofb=1"
+						alt="dell xps" />
+				</button>
+			</li>
+			<li>
+				<button class="choose-insect-btn">
+					<p>HP Beats</p>
+					<img src="hplaptop.png" alt="hp beats" />
+				</button>
+			</li>
+			<li>
+				<button class="choose-insect-btn">
+					<p>ASUS Ferrari</p>
+					<img src="ferrarilaptop.png" alt="ferrari laptop" />
+				</button>
+			</li>
+		</ul>
+	</div>
+
+	<div class="screen game-container">
+		<h3 id="time">Time: 00:00</h3>
+		<h3 id="score">Score: 0</h3>
+		<h5 id="message">Are you annoyed yet? <br />
+			You're playing an impossible game!</h5>
+
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
